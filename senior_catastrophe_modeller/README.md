@@ -10,7 +10,7 @@ Use the curve you create in the Oasis Loss Modelling Framework (the toy ‘PiWin
 
 Please try to limit work to < 3 hours (so take appropriate judgment calls). 
 
-There is no 'right' or 'wrong' answer as we are more interested in the methodology you use and your thought process, as well as your ability to explain to the team you work.
+There is no 'right' or 'wrong' answer as we are more interested in the methodology you use and your thought process, as well as your ability to explain to the team your work.
 
 You will present a lecture as part of this analysis to a mixed team of ICEYE scientists and engineers. The lecture should include:
 
