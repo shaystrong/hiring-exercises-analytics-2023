@@ -4,7 +4,7 @@ Oasis Loss Modelling Framework is an open source framework intended to better un
 
 ### Task
 
-Using randomly generated flood depth data from 2020 - 2022 for Australia NSW Gold Coast region, create a new vulnerability curve for the 'policies' represented in the dataset provided in [data/](https://github.com/shaystrong/hiring-exercises-analytics-2023/blob/main/senior_catastrophe_modeller/data/sample_pif_2020_2022.geojson). The `sample_pif_2020_2023.geojson` file includes latitude, longitude, flood depth, and event year. 
+Using randomly generated flood depth data from 2020 - 2022 for Australia Gold Coast region, create a new vulnerability curve for the 'policies' represented in the dataset provided in [data/](https://github.com/shaystrong/hiring-exercises-analytics-2023/blob/main/senior_catastrophe_modeller/data/sample_pif_2020_2022.geojson). The `sample_pif_2020_2023.geojson` file includes latitude, longitude, flood depth, and event year. 
 
 Use the curve you create in the Oasis Loss Modelling Framework (the toy ‘PiWind Model’ can be adapted) to demonstrate an end-to-end loss calculation. Assumptions and variable simplifications are fine. Please make them as needed. Please document all assumptions and approaches as part of an interactive jupyter notebook. 
 
