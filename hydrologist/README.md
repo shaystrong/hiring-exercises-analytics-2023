@@ -1,9 +1,12 @@
 ## Instructions
 
-This task is intended to be a tool to help gauge your ability to work with hydrological data/concepts using Python. Please ensure you document and describe any assumptions or approach you take a why. Produce a jupyter notebook that can be run locally, end-to-end by evaluators. Please answer the questions below in-line in the notebook. Share the notebook back to the recruiters. Ensure all depdencies are called out. Feel free to highlight challenges an uncertainties. We are interested in how you think. Try not to spend more than 3 hours on this task. Use Python for your coding language.
+This task is intended to be a tool to help gauge your ability to work with hydrological data/concepts using Python. Please ensure you document and describe any assumptions or approaches you take and why. Produce a jupyter notebook that can be run locally, end-to-end by evaluators. Please answer the questions below in-line in the notebook. Share the notebook back to the recruiters. Ensure all dependencies are discussed. Feel free to highlight challenges and uncertainties. We are interested in how you think. Try not to spend more than 3 hours on this task. Use Python for your coding language.
 
 1. The data you will be using lives here: 
 2. Prepare the DEM. Assess for anomalies and condition for use in a hydrological model. Question a):  What may be some limitations with this DEM for the purpose of flood modelling?
-3. Using the impervious surface data (raster is in units of percent), what is the average percentage of impervious surface in the [geojson ROI here]()?
-
-3. Calculate the water flow direction, flow accumulation, and stream networks.
+3. Using the impervious surface data (raster is in units of percent), what is the average percentage of impervious surface in the [geojson ROI here](https://github.com/shaystrong/hiring-exercises-analytics-2023/blob/main/hydrologist/data/roi_albers.geojson)?
+3. Calculate the water flow direction, flow accumulation, and stream networks. 
+4. Estimate innundation extent using HAND approach. Question a) What is the advantage of using HAND? 
+5. For the [soil data](https://github.com/shaystrong/hiring-exercises-analytics-2023/tree/main/hydrologist/data/soils), what are the categories of soil and what is the dominant soil type?
+6. What is the importance of watershed delineation in hydroligical modelling?
+8. Use the data above (soil, impervious surface, elevation) in conjunciton with a hydrological model of your choice to run a flood simulation for the Fort Worth, TX location. Choose a recent historical event and leverage assumptions about precipitation and other data sources to simulate the flood for a specific day. Document all assumptions and choices. Compare your output with some aspect of ground truth. This analysis can be done outside of Python and this notebook, but please document your results in the notebook directly. Ensure you cite references as needed.
