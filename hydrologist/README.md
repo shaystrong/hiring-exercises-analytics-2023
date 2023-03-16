@@ -8,5 +8,5 @@ This task is intended to be a tool to help gauge your ability to work with hydro
 3. Calculate the water flow direction, flow accumulation, and stream networks. 
 4. Estimate innundation extent using HAND approach. Question a) What is the advantage of using HAND? 
 5. For the [soil data](https://github.com/shaystrong/hiring-exercises-analytics-2023/tree/main/hydrologist/data/soils), what are the categories of soil and what is the dominant soil type?
-6. What is the importance of watershed delineation in hydroligical modelling?
+6. What is the importance of watershed delineation in hydrological modelling?
 8. Use the data above (soil, impervious surface, elevation) in conjunciton with a hydrological model of your choice to run a flood simulation for the Fort Worth, TX location. Choose a recent historical event and leverage assumptions about precipitation and other data sources to simulate the flood for a specific day. Document all assumptions and choices. Compare your output with some aspect of ground truth. This analysis can be done outside of Python and this notebook, but please document your results in the notebook directly. Ensure you cite references as needed.
