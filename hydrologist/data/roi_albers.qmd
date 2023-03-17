@@ -1,9 +1,9 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.22.1-Białowieża">
+<qgis version="3.20.3-Odense">
   <identifier></identifier>
   <parentidentifier></parentidentifier>
   <language></language>
-  <type>dataset</type>
+  <type></type>
   <title></title>
   <abstract></abstract>
   <links/>
