@@ -4,7 +4,7 @@ This task is intended to be a tool to help gauge your ability to work with hydro
 
 1. The data you will be using lives in the data folder in this repo. 
 2. Prepare the DEM. Assess for anomalies, apply hydrological conditioning, if needed, for use in flood inundation model of your choice. Question a) What may be some limitations with this DEM for the purpose of flood modelling?
-3. Using the [impervious surface data](https://github.com/shaystrong/hiring-exercises-analytics-2023/tree/main/hydrologist/data/impervious_area) (raster is in units of percent), what is the average percentage of impervious surface in the [geojson ROI here](https://github.com/shaystrong/hiring-exercises-analytics-2023/blob/main/hydrologist/data/roi_albers.geojson)? How does impervious affect the hydrological responses of a watershed?
+3. Using the [impervious surface data](https://github.com/shaystrong/hiring-exercises-analytics-2023/tree/main/hydrologist/data/impervious_area) (raster is in units of percent), what is the average percentage of impervious surface in the [geojson ROI here](https://github.com/shaystrong/hiring-exercises-analytics-2023/blob/main/hydrologist/data/roi_albers.geojson)? How does imperviousness affect the hydrological responses of a watershed?
 3. Calculate the water flow direction, flow accumulation, drainage networks and Height Above the Nearest Drainage (HAND). 
 4. Estimate innundation extent using HAND approach. Question a) What is the advantage of using HAND? 
 5. For the [soil data](https://github.com/shaystrong/hiring-exercises-analytics-2023/tree/main/hydrologist/data/soils), what are the categories of soil and what is the dominant soil type? How can we leverage soil or landuse landcover data in flood modelling?
